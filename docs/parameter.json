@@ -31,18 +31,6 @@
             "6.2.4-25556"
         ]
     },
-    "jun": {
-        "name": "jun",
-        "description": "请选择是否以jun模式编译.(1: 是; 0: 否)",
-        "detailedinfo": "jun模式支持升级.",
-        "required": true,
-        "default": "1",
-        "type": "choice",
-        "options": [
-            "1",
-            "0"
-        ]
-    },
     "lkm": {
         "name": "lkm",
         "description": "如不了解请保持默认, 请选择 LKM 版本.(DS918+, DS920+, DVA1622 优先选择test, 其他型号优先选择dev)",

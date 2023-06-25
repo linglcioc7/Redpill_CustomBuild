@@ -36,7 +36,7 @@
 -----------------|------|----------------|---------  
 model            | √    |-               | 请选择你需要编译的型号. (具体包含型号以基础库支持为准)  
 version          | √    |-               | 请选择你需要编译的版本. (具体包含版本以基础库支持为准)  
-jun              | √    |1               | 请选择是否以jun模式编译.  
+~jun~            | √    |1               | ~请选择是否以jun模式编译.~  
 lkm              | ×    |-               | 如不了解请保持默认, 请选择 LKM 版本.(目前具体有何区别不详, 如无必要选默认的 redpill).  
 config           | ×    |-               | 如不了解请保持默认, 设置默认 user_config.json <sup>[①]()</sup>
 maxdisks         | ×    |-               | 如不了解请保持默认, 请输入最大硬盘数 maxdisks. 默认: 无, 范围: 1~26  
@@ -91,8 +91,8 @@ ext3rds          | ×    |-               | 请输入需要集成的其他驱动
 
 ## 举例
 * 普通参数示例:
-  - {"model":"DS3622xs+", "version":"7.0.1-42218", "jun":"1", "lkm":"dev", "diskidxmap":"00", "sataportmap":"6", "addons":"misc", "modules":"r8125"}  
-  - {"model":"DS3622xs+", "version":"7.0.1-42218", "jun":"1", "lkm":"dev", "maxdisks":"16", "maxlanport":"7", "addons":"misc", "modules":"r8125"}  
+  - {"model":"DS3622xs+", "version":"7.0.1-42218", "lkm":"dev", "diskidxmap":"00", "sataportmap":"6", "addons":"misc", "modules":"r8125"}  
+  - {"model":"DS3622xs+", "version":"7.0.1-42218", "lkm":"dev", "maxdisks":"16", "maxlanport":"7", "addons":"misc", "modules":"r8125"}  
   - {  
       "model":"DS3622xs+",  
       "version":"7.0.1-42218",  

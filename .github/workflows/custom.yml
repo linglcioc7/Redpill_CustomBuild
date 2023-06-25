@@ -187,7 +187,7 @@ jobs:
                       errinfo = 'body 错误, body is null'
                   else:
                       # l = lambda x: x.strip() if isinstance(x, str) else str(x)
-                      if 'jun' in body: jun = body['jun'].strip()
+                      #if 'jun' in body: jun = body['jun'].strip()
                       if 'model' in body: model = body['model'].strip()
                       if 'version' in body: version = body['version'].strip()
                       # if 'platform' in body: platform = body['platform'].strip()
